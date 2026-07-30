@@ -69,7 +69,7 @@ models:
   StatsForecastBaselineSeasonalWindowAverage:
     model_spec:
       season_length: 12
-      window_size: 12
+      window_size: 3
 
   StatsForecastBaselineSeasonalNaive:
     model_spec:
